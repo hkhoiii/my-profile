@@ -1,0 +1,10 @@
+# Hệ điều hành
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Editor
+.vscode/
+
+# Bí mật
+.env
