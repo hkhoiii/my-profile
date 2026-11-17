@@ -64,6 +64,37 @@
 
         <section id="lien_he">
             <h2>Liên hệ</h2>
+            <p>Gửi mail trực tiếp:</p>
+            <a href="mailto:qkhoi1005@gmail.com">qkhoi1005@gmail.com</a>
+            <form>
+                <p>
+                    <label for="email">Email</label>
+                    <input 
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder=".....@gmail.com"
+                        required
+                >
+                </p>
+                <p>
+                    <label for="topic">Chủ đề</label>
+                    <select name="topic" id="topic">
+                        <option value="jop">Cơ hội làm việc</option>
+                        <option value="project">Hợp tác dự án</option>
+                        <option value="other">Khác</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="message">Lời nhắn</label>
+                    <textarea name="message" id="message" rows="5" required></textarea>
+                </p>
+                <p>
+                    <input type="checkbox" name="reply" id="reply" >
+                    <label for="reply">Tôi muốn nhận phản hồi qua email</label>
+                </p>
+                <button type="submit">Gửi</button>
+            </form>
         </section>
     </main>
 
